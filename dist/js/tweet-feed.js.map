@@ -1,0 +1,1 @@
+{"version":3,"sources":["tweet-feed.js"],"names":["Vue","component","props","template"],"mappings":";;AACAA,IAAIC,SAAJ,CAAc,YAAd,EAA4B;AAC3BC,QAAO,CAAC,QAAD,CADoB;AAE3BC,WAAU;AAFiB,CAA5B","file":"tweet-feed.js","sourcesContent":["\nVue.component(\"tweet-feed\", {\n\tprops: [\"tweets\"],\n\ttemplate: '<div class=\"tweet-feed\" v-for:\"tweet in tweets\">{{tweet.text}}</div>'\n})"]}

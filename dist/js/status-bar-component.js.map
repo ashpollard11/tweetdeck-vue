@@ -1,0 +1,1 @@
+{"version":3,"sources":["status-bar-component.js"],"names":["Vue","component","props","template"],"mappings":";;AACAA,IAAIC,SAAJ,CAAc,YAAd,EAA4B;AAC3BC,QAAO,CAAC,OAAD,CADoB;AAE3BC,WAAU;AAFiB,CAA5B","file":"status-bar-component.js","sourcesContent":["\nVue.component(\"status-bar\", {\n\tprops: [\"count\"],\n\ttemplate: '<h2>Fetching new tweets in {{ count }}s</h2>'\n})"]}
