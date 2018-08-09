@@ -1,0 +1,1 @@
+{"version":3,"sources":["tweet-component.js"],"names":["Vue","component","props","template"],"mappings":";;AACAA,IAAIC,SAAJ,CAAc,OAAd,EAAuB;AACtBC,QAAO,CAAC,cAAD,CADe;AAEtBC;AAFsB,CAAvB","file":"tweet-component.js","sourcesContent":["\nVue.component(\"tweet\", {\n\tprops: [\"tweet-object\"],\n\ttemplate: \n\t\t`<p>\n\t\t\t{{ tweetObject.text }}\n\t\t</p>`\n})"]}

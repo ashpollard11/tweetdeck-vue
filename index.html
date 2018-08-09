@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="x-ua-compatible" content="ie=edge">
-		<title> ¯\_(ツ)_/¯ </title>
+		<title> TweetDeck </title>
 		<meta name="description" content="">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -14,14 +14,16 @@
 		
 		<div id="app">
 			<hashtag-input></hashtag-input>
-			<status-bar></status-bar>
-			<tweet-feed></tweet-feed>
+			<status-bar :tweet-data="tweetData"></status-bar>
+			<tweet-feed :tweet-data="tweetData"></tweet-feed>
 		</div>
 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
 		<script src="https://unpkg.com/vue/dist/vue.js"></script>
-		<script src="dist/js/tweet-feed.js"></script>
-		<script src="dist/js/status-bar-component.js"></script>
 		<script src="dist/js/hashtag-input-component.js"></script>
+		<script src="dist/js/status-bar-component.js"></script>
+		<script src="dist/js/tweet-feed-component.js"></script>
+		<script src="dist/js/tweet-component.js"></script>
 		<script src="dist/js/main.js"></script>
 
 	</body>

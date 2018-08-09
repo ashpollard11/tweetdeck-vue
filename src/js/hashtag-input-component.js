@@ -1,10 +1,18 @@
 
 Vue.component("hashtag-input", {
-	props: ["hashtag"],
-	data: function() {
-		return {
-			dataFetching: ""
+	props: {
+		hashtag: {
+			default: "#puppies",
+			type: String
 		}
 	},
-	template: '<div><input type="text" placeholder="#problematic"></div>'
+	// data: function() {
+	// 	return {
+	// 		dataFetching: ""
+	// 	}
+	// },
+	template: 
+				`<div class="input-container">
+					<input type="text" name="hashtag" @keyup.enter="submit" :value="hashtag">
+				</div>`
 })
